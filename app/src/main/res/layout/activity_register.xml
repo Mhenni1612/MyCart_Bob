@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:paddingLeft="35dp"
+    android:paddingRight="35dp"
+    android:background="#FFFFFF">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logoconnect"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="#10BDBDBD"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="202dp"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableStart="@drawable/ic_mail_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="@string/adresse_e_mail"
+            android:inputType="textEmailAddress"
+            android:paddingStart="5dp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/editTextEmail"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="20dp"
+            android:hint="@string/mot_de_passe"
+            android:inputType="textPassword"
+            android:paddingStart="5dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/button_login_bg"
+            android:text="@string/inscription"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textViewSingin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonRegister"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:hint="@string/d_j_inscrit_connectez_vous_ici"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.v7.widget.LinearLayoutCompat>

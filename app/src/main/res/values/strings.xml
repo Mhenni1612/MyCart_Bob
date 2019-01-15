@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyCart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="adresse_e_mail">Adresse e-mail</string>
+    <string name="inscription">Inscription</string>
+    <string name="d_j_inscrit_connectez_vous_ici">Déjà inscrit Connectez-vous ici</string>
+    <string name="todo">TODO</string>
+    <string name="connexion">Connexion</string>
+    <string name="pas_de_compte_inscrivez_vous_ici">Pas de compte Inscrivez-vous ici</string>
+
+
+</resources>
